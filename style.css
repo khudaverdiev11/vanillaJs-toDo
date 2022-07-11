@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 350px;
+    height: 700px;
+    margin: auto;
+}
+
+.header {
+    width: 100%;
+    height: 200px;
+    background-image: url(photo.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#date {
+    width: 100%;
+    height: 50px;
+    padding-top: 150px;
+    padding-left: 10px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+
+.doinglist {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+#addToDo {
+    border-style: none;
+    border-radius: 20px;
+}
+
+.fa-plus-circle {
+    font-size: 35px;
+    color: rgb(56, 56, 56);
+}
+
+#inputField {
+    width: 315px;
+    height: 35px;
+    font-size: 25px;
+    border-style: none;
+    font-family: 'Original Surfer', cursive;
+}
+
+.paragraph-styling {
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 25px;
+    font-family: 'Original Surfer', cursive;
+}
+
+#toDocontainer {
+    background-color: rgb(37, 37, 37);
+    color: white;
+    border-radius: 10px;
+}
